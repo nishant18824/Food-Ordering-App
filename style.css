@@ -1,3 +1,19 @@
-#title {
-    background-color: azure;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.nav-items > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
 }
