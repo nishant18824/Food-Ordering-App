@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "\"this is the food ordering app\"",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
