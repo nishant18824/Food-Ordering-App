@@ -1,0 +1,27 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "\"this is the food ordering app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishant18824/Food-Ordering-App.git"
+  },
+  "author": "Nishant Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishant18824/Food-Ordering-App/issues"
+  },
+  "homepage": "https://github.com/nishant18824/Food-Ordering-App#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
