@@ -1,10 +1,16 @@
-import { ShimmerPostList } from "react-shimmer-effects";
+import { shimmer_card_unit } from "../constants";
 
+// shimmer card display with the animation
 const Shimmer = () => {
-    return(
-        <ShimmerPostList postStyle="STYLE_FOUR" col={3} row={2} gap={30} />
-        // <h1>Shimer UI Loading...</h1>
-    )
+    return (
+        <div className="restaurant-list">
+            {
+                new Array(shimmer_card_unit).fill(" ").map((e, index) => (
+                    <div key={index} className="shimmer-card"></div>
+                ))  
+            }
+        </div>
+    );
 };
 
 export default Shimmer;

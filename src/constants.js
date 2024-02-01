@@ -931,3 +931,8 @@ export const restaurantList = [
       widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
     },
   ];
+
+export const SWIGGY_PUBLIC_URL = 
+    "https://foodfire.onrender.com/api/restaurants?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING";
+            
+export const shimmer_card_unit = 20;

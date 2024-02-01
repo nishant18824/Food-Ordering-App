@@ -1,8 +1,5 @@
 import { useState } from "react";
-// const authenticateUser = () => {
-//   // API call to check authentication
-//   return true;
-// }
+import { Link } from "react-router-dom";
 
 const Title = () => (
     <a href="/">
@@ -23,13 +20,14 @@ const Title = () => (
         <Title />
         <div className="nav-items">
           <ul>
-            <li>Home</li>
-            <li>About</li>
+
+            <li><Link to="/" >Home</Link></li>
+            <li><Link to="/about" >About</Link></li>
             <li>Contact</li>
             <li>Cart</li>
-          </ul>
-        </div>
-        { isLoggedIn ? (
+            <li>
+              { 
+                isLoggedIn ? (
           <button onClick={
             ()=> setIsLoggedIn(false)
           }>Logout
@@ -37,8 +35,13 @@ const Title = () => (
           ) : ( 
           <button onClick={
             () => setIsLoggedIn(true)
-          }>Login</button> 
-        )}
+          }>Login
+          </button> 
+        )
+        }
+        </li>
+          </ul>
+        </div>
       </div>
     );
   };
