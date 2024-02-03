@@ -41,3 +41,8 @@
     margin: 10px;
     padding: 10px;
 }
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
